@@ -29,16 +29,24 @@ Project:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 2.0
+  9:
+   Uri: 'urn:FTOptix:CODESYS'
+   Module: FTOptix.CODESYS
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 227
-  Objects: 85
-  ObjectTypes: 5
-  Variables: 137
+  TotalNodeCount: 526
+  Objects: 117
+  ObjectTypes: 6
+  Variables: 403
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 2
+  References: 8
   ReferenceTypes: 0
-  Files: 20
+  Files: 25
  Nodes:
  - File: Nodes/IstraDemo.yaml

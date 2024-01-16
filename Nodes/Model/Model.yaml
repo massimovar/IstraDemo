@@ -1,2 +1,14 @@
 Name: Model
+Id: g=bc3650d75c12a4dd35095a7f5e21329e
 Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Id: g=c61f8efd2912546ecabefafc89848b12
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 4
+- Name: PLC_IP
+  Id: g=25adb0a6e488cc81661577c2b7d7d1fc
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "127.0.0.1"
