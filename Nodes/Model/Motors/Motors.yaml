@@ -1,0 +1,99 @@
+Name: Motors
+Id: g=67fbb1ab36502ad20ca91690b3524cfb
+Type: FolderType
+Children:
+- Name: IstraMotor1
+  Id: g=063002704ebff7342f055aa221f35527
+  Type: IstraMotor
+  Children:
+  - Name: On
+    Id: g=d5dd7c7c968e1f41015f15106b445524
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=ac680a826e32b8fad658418e4a7a116a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Status
+    Id: g=4ae408359f5e02c69df04036b3ff9db5
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: IstraMotor2
+  Id: g=c1dc727334ce24381db3b80eee415f34
+  Type: IstraMotor
+  Children:
+  - Name: On
+    Id: g=d5296da1e08d51f1cee264ab3b28a19c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=7152c92fa040d3a15c56d3820c070c78
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Status
+    Id: g=7bb10dd9aade3dd5a031b01940591b01
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: IstraMotor3
+  Id: g=6fb7dd411d62fdf5a716fb213ca3553d
+  Type: IstraMotor
+  Children:
+  - Name: On
+    Id: g=6457afe3fda8a888798a73252da5c31d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=2448dcc5cacec4d4db4741ff155807bc
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Status
+    Id: g=a875565c719873343f7306b0886165e5
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: IstraMotor4
+  Id: g=84df2c11a2ca8c662e95de900ebfed25
+  Type: IstraMotor
+  Children:
+  - Name: On
+    Id: g=7410f9acf6f6a45e25ac5e0a64f0c85a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=fdc7f5cdc652ce7ac4ab0e11f84cc872
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Status
+    Id: g=b958e3ecfc926bfe195d8661feee9623
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: IstraMotor5
+  Id: g=60bc5c1e3a7602bf9499bfc2b59b73b7
+  Type: IstraMotor
+  Children:
+  - Name: On
+    Id: g=78af8fda8ad8aa057bb433d9420a3363
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=3a546b7443018ef2702fb223cbb40227
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Status
+    Id: g=eca4b1c2abab36ec43fa9186acbcb791
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""

@@ -1,0 +1,23 @@
+Name: Types
+Id: g=79a78426f0ba16fc8e05145a71b52736
+Type: FolderType
+Children:
+- Name: IstraMotor
+  Id: g=dabf0931d30302286cff2b83845ab85c
+  Supertype: BaseObjectType
+  Children:
+  - Name: On
+    Id: g=9c0813ab6b6a6d6fd81c17ce01deb00a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=8ec1873dd17bac2a1b8975bc01f3a997
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Status
+    Id: g=e556e54535d8becead53a009db5a5b89
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""

@@ -37,16 +37,20 @@ Project:
    Uri: 'urn:FTOptix:CODESYS'
    Module: FTOptix.CODESYS
    Version: 2.0
+  10:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 526
-  Objects: 117
-  ObjectTypes: 6
-  Variables: 403
+  TotalNodeCount: 902
+  Objects: 233
+  ObjectTypes: 10
+  Variables: 659
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
   References: 8
   ReferenceTypes: 0
-  Files: 25
+  Files: 29
  Nodes:
  - File: Nodes/IstraDemo.yaml

@@ -185,6 +185,13 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
+    - Name: FanHeaderLabel
+      Type: LabelStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 15.0
   - Name: RadioButtonStyles
     Type: BaseObjectType
     Children:
@@ -387,7 +394,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/IstraDemo/Model/Variable1"
+            Value: "/Objects/IstraDemo/Model/test/Variable1"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -426,6 +433,22 @@ Children:
             Type: NodePointer
             DataType: NodeId
             Value: "/Objects/IstraDemo/UI/Screens/Home"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Panel6
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Panel
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/IstraDemo/UI/Screens/Fans"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -523,7 +546,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/IstraDemo/Model/Variable1"
+          Value: "/Objects/IstraDemo/Model/test/Variable1"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -582,3 +605,4 @@ Children:
         ModellingRule: Optional
         Value: "Default"
 - File: Screens/Screens.yaml
+- File: Widget/Widget.yaml

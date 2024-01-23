@@ -68,7 +68,7 @@ Children:
     - Name: PLC_IP
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/IstraDemo/Model/PLC_IP"
+      Value: "/Objects/IstraDemo/Model/test/PLC_IP"
       Children:
       - Name: Kind
         Type: PropertyType

@@ -1,0 +1,14 @@
+Name: test
+Id: g=999857c027976ef9745ee394c9f7a1c9
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=c61f8efd2912546ecabefafc89848b12
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 4
+- Name: PLC_IP
+  Id: g=25adb0a6e488cc81661577c2b7d7d1fc
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "127.0.0.1"

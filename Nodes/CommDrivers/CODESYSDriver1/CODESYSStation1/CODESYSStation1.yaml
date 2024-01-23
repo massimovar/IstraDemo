@@ -18,7 +18,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../Model/PLC_IP"
+    Value: "../../../../Model/test/PLC_IP"
     Children:
     - Name: Mode
       Type: BaseVariableType
