@@ -39,7 +39,7 @@ Children:
     Id: g=7bb10dd9aade3dd5a031b01940591b01
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "stato motore 2 ok"
 - Name: IstraMotor3
   Id: g=6fb7dd411d62fdf5a716fb213ca3553d
   Type: IstraMotor

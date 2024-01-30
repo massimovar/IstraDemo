@@ -41,16 +41,20 @@ Project:
    Uri: 'urn:FTOptix:OPCUAServer'
    Module: FTOptix.OPCUAServer
    Version: 1.1
+  11:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 902
-  Objects: 233
-  ObjectTypes: 10
-  Variables: 659
+  TotalNodeCount: 1144
+  Objects: 291
+  ObjectTypes: 12
+  Variables: 841
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 8
+  References: 13
   ReferenceTypes: 0
-  Files: 29
+  Files: 30
  Nodes:
  - File: Nodes/IstraDemo.yaml
