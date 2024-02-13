@@ -2,6 +2,48 @@ Name: Model
 Id: g=bc3650d75c12a4dd35095a7f5e21329e
 Type: ModelCategoryFolder
 Children:
+- Name: totalSpeed
+  Id: g=6af827b7c94cfeada132bd375cecd8fa
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
 - File: test/test.yaml
 - File: Types/Types.yaml
 - File: Motors/Motors.yaml
+- Name: Tag_3
+  Id: g=4bbb07e2039e82e6cca45008ad04eb0a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=264d94dec70456b14bc49e56fdac2311
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/Table/Tag_3"
+    Children:
+    - Name: Mode
+      Id: g=a113617545fe0d570d007a180aee57df
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Tag_3Transitioned
+  Id: g=42e39f126b5ce656563d76f7c29809e2
+  Type: VariableTransitionEventDispatcher
+  Children:
+  - Name: Value
+    Id: g=ac14161bf84af22a849d5a6fc87ae424
+    Type: BaseVariableType
+    DataType: Double
+    Value: 200.0
+  - Name: Transition
+    Id: g=ce9a0bf86a3459126872f1a8a0ea9fd1
+    Type: BaseVariableType
+    DataType: VariableTransition
+    Value: 0
+  - Name: VariableNodePath
+    Id: g=b1797ce989ba6176f1dac27fe9088e24
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Tag_3"
+- File: TagsToLog/TagsToLog.yaml

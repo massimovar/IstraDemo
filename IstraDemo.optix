@@ -45,16 +45,36 @@ Project:
    Uri: 'urn:FTOptix:WebUI'
    Module: FTOptix.WebUI
    Version: 1.1
+  12:
+   Uri: 'urn:FTOptix:S7TiaProfinet'
+   Module: FTOptix.S7TiaProfinet
+   Version: 1.1
+  13:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  14:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
+  15:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 1.0
+  16:
+   Uri: 'urn:FTOptix:ODBCStore'
+   Module: FTOptix.ODBCStore
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 1144
-  Objects: 291
-  ObjectTypes: 12
-  Variables: 841
+  TotalNodeCount: 1723
+  Objects: 402
+  ObjectTypes: 13
+  Variables: 1308
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 13
+  References: 69
   ReferenceTypes: 0
-  Files: 30
+  Files: 36
  Nodes:
  - File: Nodes/IstraDemo.yaml

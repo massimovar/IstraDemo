@@ -1,0 +1,83 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: PLC
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
+  Children:
+  - Name: Table
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "Id": 22
+       }
+      }
+     }
+    Children:
+    - Name: Tag_3
+      Type: S7TiaProfinetTag
+      DataType: Byte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Tag_3"
+    - Name: Tag_5
+      Type: S7TiaProfinetTag
+      DataType: UInt16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Tag_5"
+    - Name: Tag_6
+      Type: S7TiaProfinetTag
+      DataType: Byte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Tag_6"
+    - Name: Tag_1
+      Type: S7TiaProfinetTag
+      DataType: UInt16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Tag_1"
+    - Name: Tag_2
+      Type: S7TiaProfinetTag
+      DataType: Byte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Tag_2"
+    - Name: Tag_4
+      Type: S7TiaProfinetTag
+      DataType: Byte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Tag_4"

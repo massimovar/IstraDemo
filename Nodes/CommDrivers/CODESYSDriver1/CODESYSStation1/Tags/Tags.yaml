@@ -62,7 +62,7 @@ Children:
         Value: 78
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=9;Encoding
         Value: 0
       - Name: StartArrayIndex
         Type: BaseDataVariableType
@@ -404,7 +404,7 @@ Children:
         Value: 72
       - Name: Encoding
         Type: BaseDataVariableType
-        DataType: Encoding
+        DataType: ns=9;Encoding
         Value: 0
       - Name: StartArrayIndex
         Type: BaseDataVariableType

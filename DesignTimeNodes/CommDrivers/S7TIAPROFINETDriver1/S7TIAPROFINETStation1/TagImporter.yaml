@@ -1,6 +1,6 @@
 Name: TagImporter
-Type: CODESYSTagImporter
-OwnerId: ns=2;g=6bd7bf574694f5a6d9bbb464f4c830ed
+Type: S7TiaProfinetTagImporter
+OwnerId: ns=2;g=743301afee4517ce61c15e0f5ff09f43
 Children:
 - Name: IgnoredPLCItems
   Type: BaseDataVariableType
@@ -15,5 +15,5 @@ Children:
   Value: []
 - Name: Mode
   Type: BaseDataVariableType
-  DataType: ns=6;FetchProviderModes
+  DataType: ns=7;FetchProviderModes
   Value: 1

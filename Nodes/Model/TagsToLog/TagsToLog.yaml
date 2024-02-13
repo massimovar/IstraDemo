@@ -1,0 +1,19 @@
+Name: TagsToLog
+Id: g=42a9f3128b6a6998ec1321a38e70208b
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=30552addb6000a33b6cb5964ab513bdc
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Id: g=e56a4d0f60729a4fe55241c41e75d0c0
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Id: g=3b59dd25753d196b08ff661b5b23dd25
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
