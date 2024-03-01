@@ -27,6 +27,14 @@ Project:
    Uri: 'urn:FTOptix:S7TiaProfinetTagImporter'
    Module: FTOptix.S7TiaProfinetTagImporter
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  9:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
  Statistics:
   TotalNodeCount: 8
   Objects: 2

@@ -601,7 +601,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/IstraDemo/UI/Screens/Allarmi"
+            Value: "/Objects/IstraDemo/UI/Screens/MyAllarms"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -694,7 +694,7 @@ Children:
       - Name: CurrentTabIndex
         Type: BaseDataVariableType
         DataType: Int32
-        Value: 6
+        Value: 3
       - Class: Reference
         Target: ns=3;i=1181
         Direction: Forward

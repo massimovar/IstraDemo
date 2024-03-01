@@ -1,3 +1,157 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=946e75d2a8d175011ff5e0f05c91ede1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=29701b81f9e46314229711bcf1e90444
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=c0da0317717c873c1e3fbcbefcee719a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=7215e061f6be0696205200758ae2dc69
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/MyAlarms/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=0fd64d8faf244e7e402dddac374c2871
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b555b057aa8e511f364e417da2072971
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=e384973e5660a33a40b53dc573ac01a3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=d476af8a4ec5890abcb09d1504cbd593
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm2
+  Id: g=b17fa3b9622437102b4b35e1043fd281
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c68e6bd5a63e5d46e5da370d66ce774d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=972f336178355d669029f4ae5825493c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=683c28ca6af6143d53ca325e0b235484
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/MyAlarms/Variable2"
+      Children:
+      - Name: Mode
+        Id: g=b1c1421c63f639418fbd3b56dffe0074
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=db0a577239fc0667838f650a7282bf1b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=cf625b9dbc20d423d60abf0963a18b0a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=0d1d8bdbfc47de96b5d45de090d560fe
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm3
+  Id: g=49e91361610c020540a97e375d36c6f6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b6647877a9debeddaeef89a9efef8593
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=7441139b39c05c9dfece12798dcf2e0b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=bba5e72c681d8b5f0761983d0336022c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/MyAlarms/Variable3.3"
+      Children:
+      - Name: Mode
+        Id: g=7fa7b2b76a12a2300f081de7ad15290c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a72b6bea2f68b971a78bf4d780bcc5fc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=2fe6608f48cbad5ce624a8b5d191d0f3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=0c9990ec91125c1b29866a98cd696683
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

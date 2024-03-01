@@ -1,0 +1,19 @@
+Name: MyAlarms
+Id: g=aa839e42a338b9428356059f865d7fe2
+Type: FolderType
+Children:
+- Name: Variable2
+  Id: g=576b6910a10660b175ceea0da2b886cb
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable3
+  Id: g=024f1ceba0395ab192202d09dbfb6910
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+- Name: Variable1
+  Id: g=bd6209fa7933b141cb7f812699c77ed4
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

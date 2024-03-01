@@ -1812,10 +1812,94 @@ Children:
       DataType: ValueChangeBehaviour
       ModellingRule: Optional
       Value: 1
-- Name: Allarmi
+- Name: MyAllarms
   Id: g=0cbd36cd6744e3a64b58dbdab77ac0ca
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: NavigationPanel1
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/IstraDemo/UI/Screens/AlarmsScreens/ActiveAlarms"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel2
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/IstraDemo/UI/Screens/AlarmsScreens/AlarmsHistory"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: CurrentTabIndex
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Class: Reference
+      Target: ns=3;i=1181
+      Direction: Forward
+    - Class: Reference
+      Target: ns=3;i=1183
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: TabPosition
+      Type: BaseVariableType
+      DataType: NavigationPanelTabPositionEnum
+      ModellingRule: Optional
+      Value: 1
 - Name: Sandbox
   Id: g=b4430cf1cc11f26b16e09a40c647e735
   Supertype: Screen
@@ -3956,3 +4040,4 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 40.0
+- File: AlarmsScreens/AlarmsScreens.yaml

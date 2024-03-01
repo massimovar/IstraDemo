@@ -47,3 +47,4 @@ Children:
     DataType: NodePath
     Value: "../Tag_3"
 - File: TagsToLog/TagsToLog.yaml
+- File: MyAlarms/MyAlarms.yaml
