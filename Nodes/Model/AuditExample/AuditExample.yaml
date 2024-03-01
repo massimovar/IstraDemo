@@ -1,0 +1,19 @@
+Name: AuditExample
+Id: g=03b73b05f75a01aafe13b3152e25793d
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=e05fd33045225cb6c2e81b3495a4424a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Id: g=7e01755535cdd3742cb0f961459aa99f
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Id: g=5f3128833a3ad38107505ffc6cae0342
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

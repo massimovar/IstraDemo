@@ -1,3 +1,21 @@
 Name: Users
 Id: g=8cdfe95c558e909385d4fe7ddc9a2655
 Type: UsersCategoryFolder
+Children:
+- Name: Gianluca
+  Id: g=bdc9533a80b5ea6c183088364eb9770e
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=4498835d30d386317ab04ccf5267fa68
+- Name: Moreno
+  Id: g=662222e06ceda9992bb885f07e172bca
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=4498835d30d386317ab04ccf5267fa68
+  - Class: Reference
+    Type: HasGroup
+    Target: g=b392eaf724e155bd66ee55dfb18d1e7c

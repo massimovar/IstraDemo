@@ -4,8 +4,17 @@ Type: AlarmsCategoryFolder
 Children:
 - Name: DigitalAlarm1
   Id: g=946e75d2a8d175011ff5e0f05c91ede1
-  Type: OffNormalAlarmController
+  Type: IstraDA
   Children:
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
   - Name: NormalStateValue
     Id: g=29701b81f9e46314229711bcf1e90444
     Type: BaseDataVariableType
@@ -34,6 +43,15 @@ Children:
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
+  - Name: Machine
+    Id: g=ccc55d1c89016827e9e1b710ebc28b0a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "machine 1"
+- Name: DigitalAlarm2
+  Id: g=b17fa3b9622437102b4b35e1043fd281
+  Type: IstraDA
+  Children:
   - Class: Reference
     Target: ns=17;i=81
     Direction: Forward
@@ -43,20 +61,6 @@ Children:
   - Class: Reference
     Target: ns=17;i=83
     Direction: Forward
-  - Name: AutoAcknowledge
-    Id: g=e384973e5660a33a40b53dc573ac01a3
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-  - Name: AutoConfirm
-    Id: g=d476af8a4ec5890abcb09d1504cbd593
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-- Name: DigitalAlarm2
-  Id: g=b17fa3b9622437102b4b35e1043fd281
-  Type: OffNormalAlarmController
-  Children:
   - Name: NormalStateValue
     Id: g=c68e6bd5a63e5d46e5da370d66ce774d
     Type: BaseDataVariableType
@@ -85,6 +89,15 @@ Children:
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
+  - Name: Machine
+    Id: g=7f69ea000cb3d2d723777fadadb9d57c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "machine 1"
+- Name: DigitalAlarm3
+  Id: g=49e91361610c020540a97e375d36c6f6
+  Type: IstraDA
+  Children:
   - Class: Reference
     Target: ns=17;i=81
     Direction: Forward
@@ -94,20 +107,6 @@ Children:
   - Class: Reference
     Target: ns=17;i=83
     Direction: Forward
-  - Name: AutoAcknowledge
-    Id: g=cf625b9dbc20d423d60abf0963a18b0a
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-  - Name: AutoConfirm
-    Id: g=0d1d8bdbfc47de96b5d45de090d560fe
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-- Name: DigitalAlarm3
-  Id: g=49e91361610c020540a97e375d36c6f6
-  Type: OffNormalAlarmController
-  Children:
   - Name: NormalStateValue
     Id: g=b6647877a9debeddaeef89a9efef8593
     Type: BaseDataVariableType
@@ -136,6 +135,15 @@ Children:
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
+  - Name: Machine
+    Id: g=641f7fb098aaa97bc7e79e3a8a76c294
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "machine 2"
+- Name: IstraDA
+  Id: g=daa5d591214e47c3c15401396f95d8ab
+  Supertype: OffNormalAlarmController
+  Children:
   - Class: Reference
     Target: ns=17;i=81
     Direction: Forward
@@ -145,13 +153,39 @@ Children:
   - Class: Reference
     Target: ns=17;i=83
     Direction: Forward
+  - Name: NormalStateValue
+    Id: g=4a1ec9975bcb593c5ca91ec22388f0fb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=9fc864b9703b90e6fa360e4f6399e3dc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=f6878b71ea7f9ce414eecf31421fc873
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=837aac5bec8f8c196faa6706bb12e19e
   - Name: AutoAcknowledge
-    Id: g=2fe6608f48cbad5ce624a8b5d191d0f3
+    Id: g=911bddc5ae3a444f56e3caa79ad33533
     Type: BaseDataVariableType
     DataType: Boolean
+    ModellingRule: Optional
     Value: true
   - Name: AutoConfirm
-    Id: g=0c9990ec91125c1b29866a98cd696683
+    Id: g=358519af878cad343fa3b61c9203403c
     Type: BaseDataVariableType
     DataType: Boolean
+    ModellingRule: Optional
     Value: true
+  - Name: Machine
+    Id: g=17893c7da94d40508f7922157c2f4b66
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

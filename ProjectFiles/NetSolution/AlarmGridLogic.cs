@@ -2,6 +2,8 @@
 using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.UI;
+using FTOptix.EventLogger;
+using FTOptix.Recipe;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

@@ -48,3 +48,4 @@ Children:
     Value: "../Tag_3"
 - File: TagsToLog/TagsToLog.yaml
 - File: MyAlarms/MyAlarms.yaml
+- File: AuditExample/AuditExample.yaml
